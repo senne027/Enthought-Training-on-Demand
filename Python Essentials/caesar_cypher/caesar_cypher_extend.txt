@@ -1,0 +1,16 @@
+
+Ideas to go beyond the caesar cypher exercise
+=============================================
+Looping and list comprehension
+- Support lower case and upper case (use of range and chr the inverse of ord)
+
+Functions:
+- Write a function that takes a message, a shift and whether it is encoding or decoding (most of it is done in the Bonus question of this one but then it can be done by everybody)
+
+Looping + File reading + some std lib (os, maybe urllib2):
+- We could build an english dictionary from downloaded text from wikipedia and try to guess the shift based on the number of words in the decoded message that are in that dictionary.
+
+SciPy (stats and optimize)
+- Explore how to break that cypher without knowing the shift using frequency analysis for various languages.
+Generate the frequencies downloading texts in various languages from ... wikipedia? That would use discrete
+statistical distributions, minimization, pdf comparison/testing, ...
